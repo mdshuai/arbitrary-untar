@@ -6,6 +6,8 @@
 # If you want to use Bundler with C-extensioned gems or MySQL/PostGresql, you
 # can use 'centos-ruby-extended' image instead.
 
+# Test for sti, uninstall tar package.
+
 FROM centos:centos7
 
 # Pull in important updates and then install ruby193
